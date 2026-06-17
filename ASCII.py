@@ -6,15 +6,7 @@ print(ord('0'))
 
 print(ord('@'))
 
-
-print(chr(65))
-
-print(chr(97))
-
-char = input("Enter a single character: ")
-
-
-
+ 
 if type(char) is str and len(char) == 1:
 
     print("Valid input!")
@@ -50,4 +42,4 @@ elif ascii_val == 32:
 
 else:
 
-    print("Type: Special Character")
+    print("Type: Special Character") 
