@@ -5,4 +5,4 @@ while var > 0:
        countinue
 
     print('\nCurrent varible value :', var)
-    print("\nGood bye!")
+print("\nGood bye!")
