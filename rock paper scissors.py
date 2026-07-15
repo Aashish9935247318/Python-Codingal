@@ -6,8 +6,9 @@ while True:
     possible_action = ["rock", "paper", "scissors"]
 
     computer_action = random.choice(possible_actions)
-    print(f"\nYou chose {user_action}, computer chose")
-{computer_action}.\n")
+    print(f"\nYou chose {user_action}, computer chose 
+          {computer_action}.\n") 
+
 
 if user_action == computer_action:
     print(f"Both players seclected {user_action}. It's a tie")
@@ -26,4 +27,11 @@ elif user_action == "scissors":
     if computer_action == "paper":
         print("Scissors cuts paper! You win!")
     else:
-        print("Rock smashes sc")
+        print("Rock smashes scissors! You win!")
+else:
+    print("Rock smashes scissors! You lose!.")
+    play_again = input("Play again? (y/n): ")
+
+if play_again != "y":
+
+    break
